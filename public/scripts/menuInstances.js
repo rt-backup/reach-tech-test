@@ -1,0 +1,1 @@
+window.menuInstances = {"Menu1":null};

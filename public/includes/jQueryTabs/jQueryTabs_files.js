@@ -1,0 +1,1 @@
+{"jQueryTabs1":{"urls":["reach_fashion_studioTabs.html"]}}

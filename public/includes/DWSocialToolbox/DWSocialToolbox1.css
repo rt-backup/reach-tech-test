@@ -1,0 +1,268 @@
+.skin1.DWSocialToolbox_container
+{
+	text-align : center;
+}
+.skin1.DWSocialToolbox_container.floating
+{
+	position : fixed;
+	left : -54px;
+	right : auto;
+	top : 0px;
+	transition : left 0.4s ease, right 0.4s ease;
+	-webkit-transition : left 0.4s ease, right 0.4s ease;
+	-moz-transition : left 0.4s ease, right 0.4s ease;
+	-o-transition : left 0.4s ease, right 0.4s ease;
+	-ms-transition : left 0.4s ease, right 0.4s ease;
+	z-index : 2147483647;
+}
+.skin1.DWSocialToolbox_container.floating.shown
+{
+	left : 0;
+	right : auto;
+}
+.skin1 .DWSocialToolbox_handler
+{
+	position : absolute;
+	left : 100%;
+	right : auto;
+	top : 0;
+	cursor : pointer;
+	width : 37px;
+	height : 38px;
+	background-image : url('./DWSocialToolbox1/right_arrow.png');
+	transition : background 0.4s ease;
+	-webkit-transition : background 0.4s ease;
+	-moz-transition : background 0.4s ease;
+	-o-transition : background 0.4s ease;
+	-ms-transition : background 0.4s ease;
+	background-position : 50% 50%;
+	background-repeat : no-repeat;
+}
+.skin1 .DWSocialToolbox_handler.shown
+{
+	background-image : url('./DWSocialToolbox1/left_arrow.png');
+}
+.skin1 .DWSocialToolbox_alignWrapper
+{
+	width : auto;
+	display : inline-block;
+	text-align : center;
+	position : relative;
+	top : 0;
+}
+.skin1 .DWSocialToolbox_navLink
+{
+	display : inline-block;
+	margin : 0;
+	width : 48px;
+	height : 48px;
+	background-size : auto;
+	background-position : center;
+	background-origin : content-box;
+	background-repeat : no-repeat;
+}
+.skin1.DWSocialToolbox_container.floating .DWSocialToolbox_navLink
+{
+	display : block;
+}
+.skin1 #DWSocialToolbox_navLink1
+{
+	background-color : rgb(59, 89, 152);
+	background-image : url('./DWSocialToolbox1/facebook.png');
+	transition : all 0.3s ease;
+	-webkit-transition : all 0.3s ease;
+	-moz-transition : all 0.3s ease;
+	-o-transition : all 0.3s ease;
+	-ms-transition : all 0.3s ease;
+}
+.skin1 #DWSocialToolbox_navLink1:hover
+{
+	background-color : #2a4275;
+	background-image : url('./DWSocialToolbox1/facebook.png');
+}
+.skin1 #DWSocialToolbox_navLink2
+{
+	background-color : rgb(85, 172, 238);
+	background-image : url('./DWSocialToolbox1/twitter.png');
+	transition : all 0.3s ease;
+	-webkit-transition : all 0.3s ease;
+	-moz-transition : all 0.3s ease;
+	-o-transition : all 0.3s ease;
+	-ms-transition : all 0.3s ease;
+}
+.skin1 #DWSocialToolbox_navLink2:hover
+{
+	background-color : #408ac2;
+	background-image : url('./DWSocialToolbox1/twitter.png');
+}
+.skin1 #DWSocialToolbox_navLink3
+{
+	background-color : rgb(220, 78, 65);
+	background-image : url('./DWSocialToolbox1/googleplus.png');
+	transition : all 0.3s ease;
+	-webkit-transition : all 0.3s ease;
+	-moz-transition : all 0.3s ease;
+	-o-transition : all 0.3s ease;
+	-ms-transition : all 0.3s ease;
+}
+.skin1 #DWSocialToolbox_navLink3:hover
+{
+	background-color : #ad3b2f;
+	background-image : url('./DWSocialToolbox1/googleplus.png');
+}
+.skin1 #DWSocialToolbox_navLink4
+{
+	background-color : rgb(134, 136, 138);
+	background-image : url('./DWSocialToolbox1/linkedin.png');
+	transition : all 0.3s ease;
+	-webkit-transition : all 0.3s ease;
+	-moz-transition : all 0.3s ease;
+	-o-transition : all 0.3s ease;
+	-ms-transition : all 0.3s ease;
+}
+.skin1 #DWSocialToolbox_navLink4:hover
+{
+	background-color : #65686b;
+	background-image : url('./DWSocialToolbox1/linkedin.png');
+}
+.skin1 #DWSocialToolbox_navLink5
+{
+	background-color : rgb(205, 32, 31);
+	background-image : url('./DWSocialToolbox1/youtube.png');
+	transition : all 0.3s ease;
+	-webkit-transition : all 0.3s ease;
+	-moz-transition : all 0.3s ease;
+	-o-transition : all 0.3s ease;
+	-ms-transition : all 0.3s ease;
+}
+.skin1 #DWSocialToolbox_navLink5:hover
+{
+	background-color : #b01b19;
+	background-image : url('./DWSocialToolbox1/youtube.png');
+}
+.skin1 #DWSocialToolbox_navLink6
+{
+	background-color : #b01b19;
+	background-image : url('./DWSocialToolbox1/stumbleupon.png');
+	transition : all 0.3s ease;
+	-webkit-transition : all 0.3s ease;
+	-moz-transition : all 0.3s ease;
+	-o-transition : all 0.3s ease;
+	-ms-transition : all 0.3s ease;
+}
+.skin1 #DWSocialToolbox_navLink6:hover
+{
+	background-color : rgb(235, 73, 36);
+	background-image : url('./DWSocialToolbox1/stumbleupon.png');
+}
+.skin1 #DWSocialToolbox_navLink7
+{
+	background-color : rgb(63, 114, 155);
+	background-image : url('./DWSocialToolbox1/instagram.png');
+	transition : all 0.3s ease;
+	-webkit-transition : all 0.3s ease;
+	-moz-transition : all 0.3s ease;
+	-o-transition : all 0.3s ease;
+	-ms-transition : all 0.3s ease;
+}
+.skin1 #DWSocialToolbox_navLink7:hover
+{
+	background-color : #346085;
+	background-image : url('./DWSocialToolbox1/instagram.png');
+}
+.skin1 #DWSocialToolbox_navLink8
+{
+	background-color : rgb(189, 8, 28);
+	background-image : url('./DWSocialToolbox1/pinterest.png');
+	transition : all 0.3s ease;
+	-webkit-transition : all 0.3s ease;
+	-moz-transition : all 0.3s ease;
+	-o-transition : all 0.3s ease;
+	-ms-transition : all 0.3s ease;
+}
+.skin1 #DWSocialToolbox_navLink8:hover
+{
+	background-color : #9c0514;
+	background-image : url('./DWSocialToolbox1/pinterest.png');
+}
+.skin1 #DWSocialToolbox_navLink9
+{
+	background-color : rgb(255, 0, 132);
+	background-image : url('./DWSocialToolbox1/flickr.png');
+	transition : all 0.3s ease;
+	-webkit-transition : all 0.3s ease;
+	-moz-transition : all 0.3s ease;
+	-o-transition : all 0.3s ease;
+	-ms-transition : all 0.3s ease;
+}
+.skin1 #DWSocialToolbox_navLink9:hover
+{
+	background-color : #cc0069;
+	background-image : url('./DWSocialToolbox1/flickr.png');
+}
+.skin1 #DWSocialToolbox_navLink10
+{
+	background-color : rgb(53, 70, 92);
+	background-image : url('./DWSocialToolbox1/tumblr.png');
+	transition : all 0.3s ease;
+	-webkit-transition : all 0.3s ease;
+	-moz-transition : all 0.3s ease;
+	-o-transition : all 0.3s ease;
+	-ms-transition : all 0.3s ease;
+}
+.skin1 #DWSocialToolbox_navLink10:hover
+{
+	background-color : #232e3d;
+	background-image : url('./DWSocialToolbox1/tumblr.png');
+}
+.skin1 #DWSocialToolbox_navLink11
+{
+	background-color : rgb(95, 153, 207);
+	background-image : url('./DWSocialToolbox1/reddit.png');
+	transition : all 0.3s ease;
+	-webkit-transition : all 0.3s ease;
+	-moz-transition : all 0.3s ease;
+	-o-transition : all 0.3s ease;
+	-ms-transition : all 0.3s ease;
+}
+.skin1 #DWSocialToolbox_navLink11:hover
+{
+	background-color : #4d7eab;
+	background-image : url('./DWSocialToolbox1/reddit.png');
+}
+.skin1 #DWSocialToolbox_navLink12
+{
+	background-color : rgb(0, 0, 0);
+	background-image : url('./DWSocialToolbox1/digg.png');
+	transition : all 0.3s ease;
+	-webkit-transition : all 0.3s ease;
+	-moz-transition : all 0.3s ease;
+	-o-transition : all 0.3s ease;
+	-ms-transition : all 0.3s ease;
+}
+.skin1 #DWSocialToolbox_navLink12:hover
+{
+	background-color : #363636;
+	background-image : url('./DWSocialToolbox1/digg.png');
+}
+body
+{
+	margin : 0;
+}
+
+/*end of skin css*/
+
+#DWSocialToolbox1.DWSocialToolbox_container
+{
+	text-align : right;
+}
+#DWSocialToolbox1.DWSocialToolbox_container.floating
+{
+	left : -48px;
+	right : auto;
+}
+#DWSocialToolbox1.DWSocialToolbox_container.floating.shown
+{
+	left : 0;
+	right : auto;
+}

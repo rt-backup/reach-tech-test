@@ -1,0 +1,277 @@
+.skin2.DWCarousel_container
+{
+	width : 100%;
+	position : relative;
+	padding : 0px 70px;
+	font-family : Lato, sans-serif;
+	margin-bottom : 50px;
+}
+.skin2 .skin2_img
+{
+	max-width : 100%;
+}
+.skin2.DWCarousel_container *:focus
+{
+	outline : 0;
+}
+.skin2 .DWCarousel_widget
+{
+	margin : 0;
+	background-color : transparent;
+	background-image : none;
+	-webkit-transition : -webkit-transform .2s ease-out, opacity .2s ease-out;
+	-moz-transition : -moz-transform .2s ease-out, opacity .2s ease-out;
+	transition : transform .2s ease-out, opacity .2s ease-out;
+	cursor : -webkit-grab;
+	text-align : center;
+}
+.skin2 .slick-prev
+{
+	width : 50px;
+	height : 70px;
+	background-position : center;
+	background-image : url('DWCarousel6/leftarrow.png');
+	background-repeat : no-repeat;
+	background-color : #a6a7ac;
+	cursor : pointer;
+	position : absolute;
+	top : 50%;
+	left : 0;
+	margin-top : -35px;
+	-webkit-transition : background .2s ease-out;
+	-moz-transition : background .2s ease-out;
+	transition : background .2s ease-out;
+}
+.skin2 .slick-next
+{
+	width : 50px;
+	height : 70px;
+	background-position : center;
+	background-image : url('DWCarousel6/rightarrow.png');
+	background-repeat : no-repeat;
+	background-color : #a6a7ac;
+	cursor : pointer;
+	position : absolute;
+	top : 50%;
+	right : 0;
+	margin-top : -35px;
+	-webkit-transition : background .2s ease-out;
+	-moz-transition : background .2s ease-out;
+	transition : background .2s ease-out;
+}
+.skin2 .slick-prev:hover
+{
+	background-image : url('DWCarousel6/leftarrow.png');
+	background-color : #9bcb43;
+}
+.skin2 .slick-next:hover
+{
+	background-image : url('DWCarousel6/rightarrow.png');
+	background-color : #9bcb43;
+}
+.skin2 .slick-dots div
+{
+	width : 10px;
+	height : 10px;
+	background-color : rgba(0, 0, 0, 0.30);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr=#4C000000, endColorstr=#4C000000,GradientType=0 );
+	border-radius : 50px;
+	-moz-border-radius : 50px;
+	-webkit-border-radius : 50px;
+	display : inline-block;
+	margin-right : 15px;
+	cursor : pointer;
+	-webkit-transition : background-color .2s ease-out;
+	-moz-transition : background-color .2s ease-out;
+	transition : background-color .2s ease-out;
+}
+.skin2 .slick-dots div:hover
+{
+	background-color : rgba(0, 0, 0, 0.70);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr=#B2000000, endColorstr=#B2000000,GradientType=0 );
+}
+.skin2 .slick-dots .slick-active div
+{
+	background-color : #9bcb43;
+}
+.skin2 .slick-dots div:not([dummy]), .skin2 .slick-dots .slick-active div:not([dummy])
+{
+}
+.skin2 .slick-dots li
+{
+	display : inline-block;
+}
+.skin2 .slick-dots li:last-child div
+{
+	margin-right : 0;
+}
+.skin2 .DWCarousel_widget:not(.slick-center)
+{
+	-o-transform : scale(1);
+	-ms-transform : scale(1);
+	-moz-transform : scale(1);
+	-webkit-transform : scale(1);
+	-o-transform : scale(1);
+	-ms-transform : scale(1);
+	-moz-transform : scale(1);
+	-webkit-transform : scale(1);
+	transform : scale(1);
+	opacity : 1;
+}
+.skin2 .slick-dots
+{
+	list-style : none;
+	margin-bottom : 0;
+	position : absolute;
+	left : 50%;
+	margin-left : -65px;
+	bottom : -50px;
+	-webkit-padding-start : 0;
+	padding : 0;
+}
+.slick-slider
+{
+	position : relative;
+	display : block;
+	-moz-box-sizing : border-box;
+	box-sizing : border-box;
+	-webkit-user-select : none;
+	-moz-user-select : none;
+	-ms-user-select : none;
+	user-select : none;
+	-webkit-touch-callout : none;
+	-khtml-user-select : none;
+	-ms-touch-action : pan-y;
+	touch-action : pan-y;
+	-webkit-tap-highlight-color : transparent;
+}
+.slick-list
+{
+	position : relative;
+	display : block;
+	overflow : hidden;
+	margin : 0;
+	padding : 0;
+}
+.slick-list:focus
+{
+	outline : none;
+}
+.slick-list.dragging
+{
+	cursor : hand;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+	-webkit-transform : translate3d(0, 0, 0);
+	-moz-transform : translate3d(0, 0, 0);
+	-ms-transform : translate3d(0, 0, 0);
+	-o-transform : translate3d(0, 0, 0);
+	-o-transform : translate3d(0, 0, 0);
+	-ms-transform : translate3d(0, 0, 0);
+	-moz-transform : translate3d(0, 0, 0);
+	-webkit-transform : translate3d(0, 0, 0);
+	transform : translate3d(0, 0, 0);
+}
+.slick-track
+{
+	position : relative;
+	top : 0;
+	left : 0;
+	display : block;
+}
+.slick-track:before,
+.slick-track:after
+{
+	display : table;
+	content : '';
+}
+.slick-track:after
+{
+	clear : both;
+}
+.slick-loading .slick-track
+{
+	visibility : hidden;
+}
+.slick-slide
+{
+	display : none;
+	float : left;
+	height : auto;
+	min-height : 1px;
+}
+[dir='rtl'] .slick-slide
+{
+	float : right;
+}
+.slick-slide.slick-loading img
+{
+	display : none;
+}
+.slick-slide.dragging img
+{
+	pointer-events : none;
+}
+.slick-initialized .slick-slide
+{
+	display : block;
+}
+.slick-loading .slick-slide
+{
+	visibility : hidden;
+}
+.slick-vertical .slick-slide
+{
+	display : block;
+	height : auto;
+	border : 1px solid transparent;
+}
+.slick-list > div[tabindex]
+{
+	overflow : hidden;
+}
+.slick-list > div[tabindex] > div
+{
+	position : relative;
+}
+
+/*end of skin css*/
+
+#DWCarousel6.DWCarousel_container
+{
+	margin-bottom : 50px;
+	padding : 0px 0px;
+}
+#DWCarousel6 .slick-dots
+{
+	margin-left : -42px;
+}
+#DWCarousel6
+{
+}
+#DWCarousel6 .DWCarousel_widget:not(.slick-center)
+{
+	opacity : 1;
+	-webkit-transform : scale(1);
+	-moz-transform : scale(1);
+	-o-transform : scale(1);
+	-ms-transform : scale(1);
+	-o-transform : scale(1);
+	-ms-transform : scale(1);
+	-moz-transform : scale(1);
+	-webkit-transform : scale(1);
+	transform : scale(1);
+}
+#DWCarousel6 .slick-dots .slick-active div
+{
+	background-color : #9f2e5a;
+}
+@media (max-width:640px)
+{
+	#DWCarousel6 .DWCarousel_widget
+	{
+		padding : 5px;
+	}
+}

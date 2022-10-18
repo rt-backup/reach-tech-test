@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /site.webmanifest
+Disallow:/style_cad.css
+
+Sitemap: http://reach-tech.com/sitemap.xml

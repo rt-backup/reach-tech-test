@@ -1,0 +1,319 @@
+.skin9.DWCarousel_container
+{
+	width : 100%;
+	position : relative;
+	padding : 0 25px;
+	font-family : Lato, sans-serif;
+	margin-bottom : 34px;
+	line-height : 170%;
+}
+.skin9 .skin9_h1
+{
+	margin : 0;
+	text-align : center;
+	font-size : 36px;
+	color : #ffffff;
+	color : rgba(255, 255, 255, 0.6);
+	margin-bottom : 20px;
+}
+.skin9 .skin9_h4
+{
+	font-size : 15px;
+	color : #ffffff;
+	color : rgba(255, 255, 255, 0.3);
+	*color : #ffffff;
+	text-transform : uppercase;
+	text-align : center;
+	margin : 0;
+	font-weight : 900;
+	letter-spacing : 3px;
+}
+.skin9 .skin9_spacer
+{
+	width : 70px;
+	height : 1px;
+	margin : 0 auto;
+	background-color : #ffffff;
+	margin-top : 25px;
+	margin-bottom : 30px;
+}
+.skin9 .skin9_p
+{
+	text-align : center;
+	font-size : 15px;
+	color : #ffffff;
+	margin : 0;
+}
+.skin9.DWCarousel_container *:focus
+{
+	outline : 0;
+}
+.skin9 .DWCarousel_widget
+{
+	margin : 0 15px;
+	background-color : transparent;
+	background-image : none;
+	padding : 70px 50px;
+	-webkit-transition : -webkit-transform .2s ease-out, opacity .2s ease-out;
+	-moz-transition : -moz-transform .2s ease-out, opacity .2s ease-out;
+	transition : transform .2s ease-out, opacity .2s ease-out;
+	cursor : -webkit-grab;
+}
+.skin9 .slick-prev
+{
+	width : 50px;
+	height : 50px;
+	background-position : center;
+	background-image : url('DWCarousel2/left_green.png');
+	background-repeat : no-repeat;
+	background-color : transparent;
+	cursor : pointer;
+	position : absolute;
+	top : 50%;
+	left : 0;
+	margin-top : -25px;
+	border-radius : 5px;
+	-moz-border-radius : 5px;
+	-webkit-border-radius : 5px;
+	-webkit-transition : background .2s ease-out;
+	-moz-transition : background .2s ease-out;
+	transition : background .2s ease-out;
+}
+.skin9 .slick-next
+{
+	width : 50px;
+	height : 50px;
+	background-position : center;
+	background-image : url('DWCarousel2/right_green.png');
+	background-repeat : no-repeat;
+	background-color : transparent;
+	cursor : pointer;
+	position : absolute;
+	top : 50%;
+	right : 0;
+	margin-top : -25px;
+	border-radius : 5px;
+	-moz-border-radius : 5px;
+	-webkit-border-radius : 5px;
+	-webkit-transition : background .2s ease-out;
+	-moz-transition : background .2s ease-out;
+	transition : background .2s ease-out;
+}
+.skin9 .slick-prev:hover
+{
+	background-image : url('DWCarousel2/left_white.png');
+	background-color : #9bcb43;
+}
+.skin9 .slick-next:hover
+{
+	background-image : url('DWCarousel2/right_white.png');
+	background-color : #9bcb43;
+}
+.skin9 .slick-dots div
+{
+	width : 10px;
+	height : 10px;
+	background-color : rgba(0, 0, 0, 0.30);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr=#4C000000, endColorstr=#4C000000,GradientType=0 );
+	border-radius : 50px;
+	-moz-border-radius : 50px;
+	-webkit-border-radius : 50px;
+	display : inline-block;
+	margin-right : 20px;
+	cursor : pointer;
+	-webkit-transition : background-color .2s ease-out;
+	-moz-transition : background-color .2s ease-out;
+	transition : background-color .2s ease-out;
+}
+.skin9 .slick-dots div:hover
+{
+	background-color : rgba(0, 0, 0, 0.50);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr=#7F000000, endColorstr=#7F000000,GradientType=0 );
+}
+.skin9 .slick-dots .slick-active div
+{
+	background-color : rgba(155, 203, 67, 1.00);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr=#FF9BCB43, endColorstr=#FF9BCB43,GradientType=0 );
+}
+.skin9 .slick-dots div:not([dummy]), .skin9 .slick-dots .slick-active div:not([dummy])
+{
+}
+.skin9 .slick-dots li
+{
+	display : inline-block;
+}
+.skin9 .slick-dots li:last-child div
+{
+	margin-right : 0;
+}
+.skin9 .DWCarousel_widget:not(.slick-center)
+{
+	-o-transform : scale(1);
+	-ms-transform : scale(1);
+	-moz-transform : scale(1);
+	-webkit-transform : scale(1);
+	-o-transform : scale(1);
+	-ms-transform : scale(1);
+	-moz-transform : scale(1);
+	-webkit-transform : scale(1);
+	transform : scale(1);
+	opacity : 0.35;
+}
+.skin9 .slick-dots
+{
+	list-style : none;
+	margin-bottom : 0;
+	position : absolute;
+	left : 50%;
+	bottom : -10%;
+	margin-left : -35px;
+	-webkit-padding-start : 0;
+	padding : 0;
+}
+.slick-slider
+{
+	position : relative;
+	display : block;
+	-moz-box-sizing : border-box;
+	box-sizing : border-box;
+	-webkit-user-select : none;
+	-moz-user-select : none;
+	-ms-user-select : none;
+	user-select : none;
+	-webkit-touch-callout : none;
+	-khtml-user-select : none;
+	-ms-touch-action : pan-y;
+	touch-action : pan-y;
+	-webkit-tap-highlight-color : transparent;
+}
+.slick-list
+{
+	position : relative;
+	display : block;
+	overflow : hidden;
+	margin : 0;
+	padding : 0;
+}
+.slick-list:focus
+{
+	outline : none;
+}
+.slick-list.dragging
+{
+	cursor : hand;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+	-webkit-transform : translate3d(0, 0, 0);
+	-moz-transform : translate3d(0, 0, 0);
+	-ms-transform : translate3d(0, 0, 0);
+	-o-transform : translate3d(0, 0, 0);
+	-o-transform : translate3d(0, 0, 0);
+	-ms-transform : translate3d(0, 0, 0);
+	-moz-transform : translate3d(0, 0, 0);
+	-webkit-transform : translate3d(0, 0, 0);
+	transform : translate3d(0, 0, 0);
+}
+.slick-track
+{
+	position : relative;
+	top : 0;
+	left : 0;
+	display : block;
+}
+.slick-track:before,
+.slick-track:after
+{
+	display : table;
+	content : '';
+}
+.slick-track:after
+{
+	clear : both;
+}
+.slick-loading .slick-track
+{
+	visibility : hidden;
+}
+.slick-slide
+{
+	display : none;
+	float : left;
+	height : auto;
+	min-height : 1px;
+}
+[dir='rtl'] .slick-slide
+{
+	float : right;
+}
+.skin9 .slick-slide img
+{
+	display : inline-block;
+}
+.slick-slide.slick-loading img
+{
+	display : none;
+}
+.slick-slide.dragging img
+{
+	pointer-events : none;
+}
+.slick-initialized .slick-slide
+{
+	display : block;
+}
+.slick-loading .slick-slide
+{
+	visibility : hidden;
+}
+.slick-vertical .slick-slide
+{
+	display : block;
+	height : auto;
+	border : 1px solid transparent;
+}
+.slick-list > div[tabindex]
+{
+	overflow : hidden;
+}
+.slick-list > div[tabindex] > div
+{
+	position : relative;
+}
+
+/*end of skin css*/
+
+#DWCarousel2 .slick-dots .slick-active div
+{
+	background-color : #9f2e59;
+}
+#DWCarousel2.DWCarousel_container
+{
+	margin-bottom : 39px;
+}
+#DWCarousel2 .DWCarousel_widget:not(.slick-center)
+{
+	opacity : 1;
+	-webkit-transform : scale(1);
+	-moz-transform : scale(1);
+	-o-transform : scale(1);
+	-ms-transform : scale(1);
+	-moz-transform : scale(1);
+	-webkit-transform : scale(1);
+	transform : scale(1);
+}
+#DWCarousel2 .slick-dots
+{
+	margin-left : -35px;
+}
+#DWCarousel2 
+{
+}
+@media (max-width:640px)
+{
+	#DWCarousel2 .DWCarousel_widget
+	{
+		padding : 5px;
+	}
+}

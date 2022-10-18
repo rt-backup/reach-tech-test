@@ -1,0 +1,74 @@
+/* lte IE 9 style*/
+.row_26 {
+	-pie-background: rgb(242, 243, 244) url("../images/black_bkg.jpg") scroll ;
+	position: relative;
+}
+
+.contactForm-base .form-group .form-control:focus {
+	position: relative;
+}
+
+#ContactForm2_form .form-group input.form-control {
+	-pie-background: rgba(255, 255, 255, 0.15);
+	position: relative;
+}
+
+#ContactForm2_form .form-group input.form-control:focus {
+	position: relative;
+}
+
+#ContactForm2_form .form-group textarea.form-control {
+	-pie-background: rgba(255, 255, 255, 0.15);
+	position: relative;
+}
+
+#ContactForm2_form .form-group button[type="submit"] {
+	border-radius: 3px;
+	position: relative;
+}
+
+#ContactForm2_form .form-group .button.button-default {
+	border-radius: 0px;
+	position: relative;
+}
+
+.row_40 {
+	-pie-background: rgb(242, 243, 244) url("../images/black_bkg.jpg") scroll ;
+	position: relative;
+}
+
+.row_14 {
+	-pie-background: transparent url("../images/hero12-bg.jpg") no-repeat scroll center top ;
+	position: relative;
+}
+
+.video-iframe {
+	border-radius: 0px;
+	position: relative;
+}
+
+.row_63 {
+	-pie-background: transparent url("../images/hero12-bg.jpg") no-repeat scroll center top ;
+	position: relative;
+}
+
+input.forminput:hover {
+	-pie-background: rgba(159, 46, 89, 0.2);
+	position: relative;
+}
+
+input.forminput {
+	position: relative;
+}
+
+@media only screen and (min-width : 768px) { }@media only screen and (min-width : 1024px) { .row_27 {
+	-pie-background: transparent none scroll ;
+	position: relative;
+}
+
+.row_41 {
+	-pie-background: transparent none scroll ;
+	position: relative;
+}
+
+}

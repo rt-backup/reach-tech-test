@@ -1,0 +1,30 @@
+/* lte IE 9 style*/
+.wp-caption {
+	-pie-background: rgb(255, 255, 255) none scroll ;
+	position: relative;
+}
+
+a.button, a.buttonVideo {
+	border-radius: 100px;
+	position: relative;
+}
+
+a.button:active, a.buttonVideo:active {
+	position: relative;
+}
+
+a.button, a.buttonVideo {
+	position: relative;
+}
+
+a.buttonVideo {
+	border-radius: 0px;
+	position: relative;
+}
+
+a.button {
+	border-radius: 0px;
+	position: relative;
+}
+
+@media only screen and (min-width : 768px) { }@media only screen and (min-width : 1024px) { }

@@ -1,0 +1,775 @@
+.JQuerySliderShow
+{
+	display : block;
+}
+.JQuerySliderHide
+{
+	display : none;
+}
+.PowerSlider2
+{
+	position : relative;
+	text-align : left;
+}
+.PowerSlider2 li li
+{
+	width : auto;
+	height : auto;
+	list-style-type : disc;
+	list-style-position : outside;
+	list-style-image : none;
+}
+.PowerSlider2 div.play, .PowerSlider2 div.pause
+{
+	box-sizing : border-box;
+}
+#PowerSlider1Container:before, #PowerSlider1Container:after, #PowerSlider1Container div:before, #PowerSlider1Container ul:before, #PowerSlider1Container div:after, #PowerSlider1Container ul:after
+{
+	content : normal;
+}
+#PowerSlider1 .customText1
+{
+	color : rgb(255, 255, 255);
+	font-family : Roboto, sans-serif;
+	font-size : 54px;
+	line-height : 100%;
+	border : 0px none rgb(0, 102, 204);
+	background-color : transparent;
+	background-image : none;
+	padding : 0px;
+	text-align : right;
+	position : absolute;
+	top : 57px;
+	left : 189px;
+	width : auto;
+	height : auto;
+	-webkit-transition : all 0ms ease 0ms;
+	transition : all 0ms ease 0ms;
+	right : auto;
+	bottom : auto;
+	vertical-align : bottom;
+	font-style : normal;
+	background-position : 0% 0%;
+	background-repeat : no-repeat;
+	horizontal-align : center;
+	-webkit-text-shadow : 0px 5px 10px rgba(0, 0, 0, 0.5);
+	-moz-text-shadow : 0px 5px 10px rgba(0, 0, 0, 0.5);
+	-webkit-text-shadow : 0px 5px 10px rgba(0, 0, 0, 0.5);
+	-moz-text-shadow : 0px 5px 10px rgba(0, 0, 0, 0.5);
+	text-shadow : 0px 5px 10px rgba(0, 0, 0, 0.5);
+	font-weight : 700;
+}
+#PowerSlider1 .customText13
+{
+	color : #FFFFFF;
+	color : rgba(255, 255, 255, 0.701961);
+	*color : #FFFFFF;
+	font-family : 'Exo 2', sans-serif;
+	font-size : 18px;
+	line-height : 170%;
+	border : 0px none rgb(0, 102, 204);
+	background-color : transparent;
+	background-image : none;
+	padding : 0px;
+	text-align : left;
+	position : absolute;
+	top : 262px;
+	left : 500px;
+	width : 603px;
+	height : 115px;
+	-webkit-transition : all 0ms ease 0ms;
+	transition : all 0ms ease 0ms;
+	font-weight : 200;
+	right : auto;
+	bottom : auto;
+	vertical-align : top;
+	background-position : 0% 0%;
+	background-repeat : no-repeat;
+	horizontal-align : left;
+}
+#PowerSlider1 .customText14
+{
+	color : rgb(255, 255, 255);
+	font-family : 'Titillium Web', sans-serif;
+	font-size : 44px;
+	font-weight : 100;
+	line-height : 100%;
+	border : 0px none rgb(0, 102, 204);
+	background-color : transparent;
+	background-image : none;
+	padding : 0px;
+	text-align : right;
+	position : absolute;
+	top : 192px;
+	left : 500px;
+	width : auto;
+	height : auto;
+	-webkit-transition : all 0ms ease 0ms;
+	transition : all 0ms ease 0ms;
+	right : auto;
+	bottom : auto;
+	vertical-align : top;
+	font-style : normal;
+	background-position : 0% 0%;
+	background-repeat : no-repeat;
+	horizontal-align : left;
+}
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.2
+ */
+
+
+.owl-carousel .owl-wrapper:after
+{
+	content : ".";
+	display : block;
+	clear : both;
+	visibility : hidden;
+	line-height : 0;
+	height : 0;
+}
+.owl-carousel
+{
+	position : relative;
+	width : 100%;
+	-ms-touch-action : pan-y;
+}
+.owl-carousel .owl-wrapper
+{
+	display : none;
+	position : relative;
+	-webkit-transform : translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer
+{
+	overflow : hidden;
+	position : relative;
+	width : 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight
+{
+	-webkit-transition : height 500ms ease-in-out;
+	-moz-transition : height 500ms ease-in-out;
+	-ms-transition : height 500ms ease-in-out;
+	-o-transition : height 500ms ease-in-out;
+	transition : height 500ms ease-in-out;
+}
+.owl-carousel .owl-item
+{
+	float : left;
+	overflow : hidden;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div
+{
+	cursor : pointer;
+}
+.owl-controls
+{
+	-webkit-user-select : none;
+	-khtml-user-select : none;
+	-moz-user-select : none;
+	-ms-user-select : none;
+	user-select : none;
+	-webkit-tap-highlight-color : rgba(0, 0, 0, 0);
+}
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item
+{
+	-webkit-backface-visibility : hidden;
+	-moz-backface-visibility : hidden;
+	-ms-backface-visibility : hidden;
+	-webkit-transform : translate3d(0,0,0);
+	-moz-transform : translate3d(0,0,0);
+	-ms-transform : translate3d(0,0,0);
+}
+#PowerSlider1_bullets_in, #PowerSlider1_bullets_in ul, #PowerSlider1_bullets_in li
+{
+	margin : 0px;
+	padding : 0px;
+	position : relative;
+	list-style : none outside none;
+	width : auto;
+	height : auto;
+}
+#PowerSlider1_bullets_in
+{
+	position : absolute;
+	background-image : none;
+	background-attachment : scroll;
+	background-color : transparent;
+	padding : 0px;
+	overflow : hidden;
+	width : 58px;
+	height : 11px;
+	left : 483px;
+	right : auto;
+	bottom : 141px;
+	background-position : 50% 50%;
+	background-repeat : no-repeat;
+}
+#PowerSlider1_bullets_in ul
+{
+	position : relative;
+	overflow : hidden;
+	width : auto;
+	height : auto;
+}
+#PowerSlider1_bullets_in li
+{
+	float : left;
+	padding-right : 5px;
+}
+#PowerSlider1_bullets_in li a
+{
+	background-image : url(PowerSlider1/bullet_normal.png);
+	background-attachment : scroll;
+	background-color : rgb(255, 255, 255);
+	padding : 0px;
+	float : left;
+	width : 11px;
+	height : 11px;
+	cursor : pointer;
+	color : rgb(0, 0, 0);
+	text-align : center;
+	-webkit-border-top-right-radius : 50px;
+	-moz-border-radius-topright : 50px;
+	border-top-right-radius : 50px;
+	-webkit-border-top-left-radius : 50px;
+	-moz-border-radius-topleft : 50px;
+	border-top-left-radius : 50px;
+	-webkit-border-bottom-left-radius : 50px;
+	-moz-border-radius-bottomleft : 50px;
+	border-bottom-left-radius : 50px;
+	-webkit-border-bottom-right-radius : 50px;
+	-moz-border-radius-bottomright : 50px;
+	border-bottom-right-radius : 50px;
+	right : auto;
+	bottom : auto;
+	left : auto;
+	top : auto;
+	background-position : 50% 50%;
+	background-repeat : no-repeat;
+	margin : 0px;
+}
+#PowerSlider1_bullets_in li a.hover
+{
+	background-image : url(PowerSlider1/bullet_normal.png);
+	background-attachment : scroll;
+	background-color : rgb(58, 157, 238);
+	float : left;
+	cursor : pointer;
+	color : rgb(0, 255, 255);
+	background-position : 50% 50%;
+	background-repeat : no-repeat;
+	padding : 0px;
+	margin : 0px;
+}
+#PowerSlider1_bullets_in li a.active
+{
+	background-image : none;
+	background-attachment : scroll;
+	background-color : rgb(58, 157, 238);
+	float : left;
+	cursor : pointer;
+	color : rgb(0, 0, 255);
+	background-position : 50% 50%;
+	background-repeat : no-repeat;
+	padding : 0px;
+	margin : 0px;
+}
+#PowerSlider1_pagination_in
+{
+	width : auto;
+	height : auto;
+	position : absolute;
+	left : 35px;
+	top : 40px;
+	font-size : 14px;
+	font-family : 'Open Sans', sans-serif;
+	right : auto;
+	bottom : auto;
+	font-weight : 500;
+	color : #FFFFFF;
+	color : rgba(255, 255, 255, 0.811765);
+	*color : #FFFFFF;
+	-webkit-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	-moz-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	-webkit-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	-moz-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+}
+#PowerSlider1_pagination_in.hover
+{
+	width : auto;
+	height : auto;
+}
+#PowerSlider1_progressbar_in
+{
+	background-color : transparent;
+	background-image : none;
+	padding : 0px;
+	margin : 0px;
+	width : 100%;
+	height : 8px;
+	overflow : hidden;
+	z-index : 10;
+	left : 0px;
+	position : absolute;
+	top : 0px;
+	right : auto;
+	bottom : auto;
+	background-position : 0% 0%;
+	background-repeat : no-repeat;
+}
+#PowerSlider1_progressbar_in .progress-bar
+{
+	background-color : rgb(159, 46, 89);
+	width : 100%;
+	height : 100%;
+	position : absolute;
+}
+#PowerSlider1_navbar_in, #PowerSlider1_navbar_in ul, #PowerSlider1_navbar_in li
+{
+	margin : 0px;
+	padding : 0px;
+	position : relative;
+	list-style : none outside none;
+	width : auto;
+	height : auto;
+}
+#PowerSlider1_navbar_in
+{
+	position : absolute;
+	left : 16px;
+	background-image : none;
+	background-attachment : scroll;
+	background-color : transparent;
+	padding : 0px;
+	overflow : hidden;
+	width : auto;
+	height : auto;
+	bottom : 0px;
+	right : auto;
+	top : auto;
+	background-position : 0% 0%;
+	background-repeat : no-repeat;
+}
+#PowerSlider1_navbar_in ul
+{
+	position : relative;
+	overflow : hidden;
+	width : auto;
+	height : auto;
+}
+#PowerSlider1_navbar_in li
+{
+	float : left;
+	padding-right : 0px;
+	min-width : 290px;
+	min-height : 20px;
+}
+#PowerSlider1_navbar_in li a
+{
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr=#4BE5E3E3, endColorstr=#4BE5E3E3,GradientType=0 );
+	background-color : rgba(229, 227, 227, 0.298039);
+	font-style : normal;
+	font-variant : normal;
+	font-weight : normal;
+	font-size : 12px;
+	line-height : 100%;
+	font-family : Arial, Helvetica, sans-serif;
+	padding : 40px 20px;
+	border-width : 1px;
+	float : left;
+	width : NaNpx;
+	height : NaNpx;
+	cursor : pointer;
+	color : rgb(0, 0, 0);
+	text-decoration : none;
+	text-align : left;
+	text-transform : none;
+	right : auto;
+	bottom : auto;
+	background-image : none;
+	-webkit-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+	-moz-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+	-webkit-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+	-moz-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+	box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+	border-style : solid solid none none;
+	border-color : rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.0980392) rgba(255, 255, 255, 0.298039) rgba(255, 255, 255, 0.298039);
+	background-repeat : repeat repeat;
+	box-sizing : border-box;
+}
+#PowerSlider1_navbar_in li a span.title
+{
+	font-family : 'Open Sans', sans-serif;
+	font-size : 18px;
+	letter-spacing : 0px;
+	line-height : 100%;
+	font-weight : 400;
+	text-align : center;
+	text-decoration : none;
+	text-transform : none;
+	font-style : normal;
+	color : #F2F2F2;
+	color : rgba(242, 242, 242, 0.701961);
+	*color : #F2F2F2;
+	width : 100%;
+	display : block;
+	float : left;
+	-webkit-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	-moz-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	-webkit-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	-moz-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	margin-bottom : 3px;
+	margin-right : 0px;
+}
+#PowerSlider1_navbar_in li a span.subtitle
+{
+	font-family : 'Open Sans', sans-serif;
+	font-size : 14px;
+	letter-spacing : 0px;
+	line-height : 100%;
+	font-weight : 400;
+	text-align : center;
+	text-decoration : none;
+	text-transform : none;
+	font-style : normal;
+	color : #EDEDED;
+	color : rgba(237, 237, 237, 0.498039);
+	*color : #EDEDED;
+	width : 100%;
+	display : block;
+	float : left;
+	-webkit-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	-moz-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	-webkit-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	-moz-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+}
+#PowerSlider1_navbar_in li a.hover
+{
+	float : left;
+	cursor : pointer;
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr=#7EF5F5F5, endColorstr=#7EF5F5F5,GradientType=0 );
+	background-color : rgba(245, 245, 245, 0.498039);
+	-webkit-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+	-moz-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+	-webkit-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+	-moz-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+	box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+}
+#PowerSlider1_navbar_in li a.active
+{
+	float : left;
+	cursor : pointer;
+	background-image : -webkit-gradient(linear, left top, left bottom,color-stop(0%, rgb(58,156,238)),color-stop(35%, rgb(28,141,233)),color-stop(100%, rgb(0,95,166)));
+	background-image : -webkit-linear-gradient( top,rgb(58,156,238) 0%,rgb(28,141,233) 35%,rgb(0,95,166) 100%);
+	background-image : -moz-linear-gradient( top,rgb(58,156,238) 0%,rgb(28,141,233) 35%,rgb(0,95,166) 100%);
+	background-image : -o-linear-gradient( top,rgb(58,156,238) 0%,rgb(28,141,233) 35%,rgb(0,95,166) 100%);
+	background-image : -ms-linear-gradient( top,rgb(58,156,238) 0%,rgb(28,141,233) 35%,rgb(0,95,166) 100%);
+	background-image : linear-gradient( to bottom,rgb(58,156,238) 0%,rgb(28,141,233) 35%,rgb(0,95,166) 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr=#3A9CEE, endColorstr=#005FA6,GradientType=0 );
+	-webkit-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+	-moz-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+	-webkit-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+	-moz-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+	box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px;
+}
+#PowerSlider1_navbar_in li a.active span.title
+{
+	color : #000000;
+	color : rgba(0, 0, 0, 0.901961);
+	*color : #000000;
+	font-size : 18px;
+	-webkit-text-shadow : rgba(255, 255, 255, 0.4) 1px 1px 0px;
+	-moz-text-shadow : rgba(255, 255, 255, 0.4) 1px 1px 0px;
+	-webkit-text-shadow : rgba(255, 255, 255, 0.4) 1px 1px 0px;
+	-moz-text-shadow : rgba(255, 255, 255, 0.4) 1px 1px 0px;
+	text-shadow : rgba(255, 255, 255, 0.4) 1px 1px 0px;
+}
+#PowerSlider1_navbar_in li a.active span.subtitle
+{
+	color : #000000;
+	color : rgba(0, 0, 0, 0.498039);
+	*color : #000000;
+	font-size : 13px;
+	-webkit-text-shadow : rgba(255, 255, 255, 0.4) 1px 1px 0px;
+	-moz-text-shadow : rgba(255, 255, 255, 0.4) 1px 1px 0px;
+	-webkit-text-shadow : rgba(255, 255, 255, 0.4) 1px 1px 0px;
+	-moz-text-shadow : rgba(255, 255, 255, 0.4) 1px 1px 0px;
+	text-shadow : rgba(255, 255, 255, 0.4) 1px 1px 0px;
+}
+#PowerSlider1_navbar_in li a.hover span.subtitle
+{
+	-webkit-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	-moz-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	-webkit-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	-moz-text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+	text-shadow : rgba(0, 0, 0, 0.498039) 1px 1px 0px;
+}
+#PowerSlider1_numbers_in, #PowerSlider1_numbers_in ul, #PowerSlider1_numbers_in li
+{
+	margin : 0px;
+	padding : 0px;
+	position : relative;
+	list-style : none outside none;
+	width : auto;
+	height : auto;
+}
+#PowerSlider1_numbers_in li a span
+{
+	font-style : normal;
+	font-variant : normal;
+	font-weight : normal;
+	font-size : 12px;
+	line-height : 100%;
+	font-family : Arial, Helvetica, sans-serif;
+	color : rgb(0, 0, 0);
+	text-decoration : none;
+	text-align : center;
+	text-transform : none;
+}
+#PowerSlider1_numbers_in li a.hover span
+{
+	font-style : normal;
+	font-variant : normal;
+	font-weight : normal;
+	font-size : 12px;
+	line-height : 100%;
+	font-family : Arial, Helvetica, sans-serif;
+	color : rgb(0, 0, 0);
+	text-decoration : none;
+	text-align : center;
+	text-transform : none;
+}
+#PowerSlider1_numbers_in li a.active span
+{
+	font-style : normal;
+	font-variant : normal;
+	font-weight : normal;
+	font-size : 12px;
+	line-height : 100%;
+	font-family : Arial, Helvetica, sans-serif;
+	color : rgb(0, 0, 0);
+	text-decoration : none;
+	text-align : center;
+	text-transform : none;
+}
+#PowerSlider1_playpause_in
+{
+	width : 18px;
+	height : 18px;
+	position : absolute;
+	left : auto;
+	top : 50px;
+	right : 50px;
+	bottom : auto;
+}
+#PowerSlider1_playpause_in div
+{
+	display : block;
+	cursor : pointer;
+	float : left;
+}
+#PowerSlider1_playpause_in div.play
+{
+	background-image : url(PowerSlider1/playyellow.fw.png);
+	background-attachment : scroll;
+	background-color : transparent;
+	font-style : normal;
+	font-variant : normal;
+	font-weight : normal;
+	font-size : 12px;
+	line-height : 100%;
+	font-family : Arial, Helvetica, sans-serif;
+	padding : 0px;
+	width : 18px;
+	height : 18px;
+	cursor : pointer;
+	color : rgb(0, 0, 0);
+	text-decoration : none;
+	text-align : left;
+	text-transform : none;
+	-webkit-border-top-left-radius : 0px;
+	-moz-border-radius-topleft : 0px;
+	border-top-left-radius : 0px;
+	-webkit-border-top-right-radius : 0px;
+	-moz-border-radius-topright : 0px;
+	border-top-right-radius : 0px;
+	-webkit-border-bottom-left-radius : 0px;
+	-moz-border-radius-bottomleft : 0px;
+	border-bottom-left-radius : 0px;
+	-webkit-border-bottom-right-radius : 0px;
+	-moz-border-radius-bottomright : 0px;
+	border-bottom-right-radius : 0px;
+	border : 0px solid rgb(0, 0, 0);
+	background-position : 0% 0%;
+	background-repeat : no-repeat;
+}
+#PowerSlider1_playpause_in div.play.hover
+{
+	background-image : url(PowerSlider1/playyellow.fw.png);
+	background-attachment : scroll;
+	background-color : transparent;
+	font-style : normal;
+	font-variant : normal;
+	font-weight : normal;
+	font-size : 12px;
+	line-height : 100%;
+	font-family : Arial, Helvetica, sans-serif;
+	padding : 0px;
+	cursor : pointer;
+	color : rgb(0, 0, 0);
+	text-decoration : none;
+	text-align : left;
+	text-transform : none;
+	background-position : 0% 0%;
+	background-repeat : no-repeat;
+}
+#PowerSlider1_playpause_in div.pause
+{
+	background-image : url(PowerSlider1/pauseyellow.fw.png);
+	background-attachment : scroll;
+	background-color : transparent;
+	font-style : normal;
+	font-variant : normal;
+	font-weight : normal;
+	font-size : 12px;
+	line-height : 100%;
+	font-family : Arial, Helvetica, sans-serif;
+	padding : 0px;
+	width : 18px;
+	height : 18px;
+	cursor : pointer;
+	color : rgb(0, 0, 0);
+	text-decoration : none;
+	text-align : left;
+	text-transform : none;
+	background-position : 0% 0%;
+	background-repeat : no-repeat;
+}
+#PowerSlider1_playpause_in div.pause.hover
+{
+	background-image : url(PowerSlider1/pauseyellow.fw.png);
+	background-attachment : scroll;
+	background-color : transparent;
+	font-style : normal;
+	font-variant : normal;
+	font-weight : normal;
+	font-size : 12px;
+	line-height : 100%;
+	font-family : Arial, Helvetica, sans-serif;
+	padding : 0px;
+	cursor : pointer;
+	color : rgb(0, 0, 0);
+	text-decoration : none;
+	text-align : left;
+	text-transform : none;
+	background-position : 0% 0%;
+	background-repeat : no-repeat;
+}
+#PowerSlider1Container
+{
+	border : 0px none rgb(0, 102, 204);
+	padding : 0px;
+	position : relative;
+	width : 100%;
+	height : 692px;
+	color : rgb(0, 0, 0);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr=#00000000, endColorstr=#00000000,GradientType=0 );
+	background-color : rgba(0, 0, 0, 0);
+	background-image : url('PowerSlider1/banner01_2560.jpg');
+	overflow-x : hidden;
+	overflow-y : hidden;
+	right : auto;
+	bottom : auto;
+	-webkit-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	-moz-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	-webkit-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	-moz-box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	box-shadow : rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	background-position : 50% 50%;
+	background-repeat : no-repeat;
+	background-size : auto;
+	margin : 0;
+	float : none;
+}
+#PowerSlider1
+{
+	width : 100%;
+	height : 692px;
+	margin : 0px auto;
+	top : 0px;
+}
+#PowerSlider1 #extend-slider, #PowerSlider1 #extend-slider li
+{
+	margin : 0px;
+	padding : 0px;
+	position : relative;
+	list-style : none outside none;
+}
+#PowerSlider1 #extend-slider li.slide1
+{
+	height : 692px;
+	background-color : transparent,,,0.8);
+}
+#PowerSlider1 #extend-slider li.slide2
+{
+	height : 692px;
+	background-image : none;
+}
+#PowerSlider1 #extend-slider li.slide3
+{
+	height : 692px;
+	background-image : none;
+}
+#PowerSlider1 #extend-slider li.slide4
+{
+	height : 692px;
+	background-image : none;
+}
+#PowerSlider1 #extend-slider li
+{
+	width : 100%;
+}
+#PowerSlider1 .customVideo1
+{
+	width : 50%;
+	height : 50%;
+	position : absolute;
+	left : auto;
+	top : 173px;
+	bottom : auto;
+	right : 20px;
+}
+#PowerSlider1 .customVideo1 iframe
+{
+	width : 100%;
+	height : 100%;
+}
+#PowerSlider1 .customText2
+{
+	width : auto;
+	height : auto;
+	position : absolute;
+	left : 70px;
+	top : 274px;
+	font-family : Roboto, sans-serif;
+	font-weight : 400;
+	font-size : 40px;
+	-webkit-text-shadow : 0px 5px 10px rgba(0, 0, 0, 0.5);
+	-moz-text-shadow : 0px 5px 10px rgba(0, 0, 0, 0.5);
+	-webkit-text-shadow : 0px 5px 10px rgba(0, 0, 0, 0.5);
+	-moz-text-shadow : 0px 5px 10px rgba(0, 0, 0, 0.5);
+	text-shadow : 0px 5px 10px rgba(0, 0, 0, 0.5);
+	right : auto;
+	bottom : auto;
+	color : rgb(255, 255, 255);
+	text-align : center;
+	line-height : 120%;
+}

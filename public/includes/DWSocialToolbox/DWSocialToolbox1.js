@@ -1,0 +1,2 @@
+var DWSocialToolbox1_json = {"name":"DWSocialToolbox1","skin":"skin 1","openCloseVertical":"middle","type":"layout","floatingPosition":"left","mobile_friendly":true,"mobileWidth":"100%","devices":{"desktop":{"mediaQuery":null,"width":"1140px"},"mobile":{"mediaQuery":"@media (max-width:640px)","width":"640px"}},"xtdCode":"4b8e95204c","floatingCenter":false};
+socialtoolbox_jQuery(document).ready(function() {  socialtoolbox_jQuery('#DWSocialToolbox1').DWSocialToolbox(); })

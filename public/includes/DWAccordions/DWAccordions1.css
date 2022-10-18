@@ -1,0 +1,256 @@
+.skin5.DWAccordions_container
+{
+	width : 100%;
+	box-sizing : border-box;
+	clear : both;
+	-webkit-backface-visibility : hidden;
+}
+.skin5 .DWAccordions_navLink .DWAccordions_iconHolder
+{
+	height : 100%;
+	position : absolute;
+	right : 0px;
+	top : 0;
+	background-position : center;
+	background-repeat : no-repeat;
+	background-image : url('./DWAccordions1/image1.png');
+	-webkit-transition : all 0.2s ease;
+	-moz-transition : all 0.2s ease;
+	-ms-transition : all 0.2s ease;
+	-o-transition : all 0.2s ease;
+	transition : all 0.2s ease;
+}
+.skin5 .DWAccordions_navLink.selected .DWAccordions_iconHolder
+{
+	background-image : url('./DWAccordions1/image3.png');
+}
+.skin5 .DWAccordions_navLink
+{
+	display : block;
+	text-decoration : none;
+	-webkit-touch-callout : none;
+	-webkit-user-select : none;
+	-khtml-user-select : none;
+	-moz-user-select : none;
+	-ms-user-select : none;
+	user-select : none;
+	background-color : transparent;
+	height : 54px;
+	text-align : left;
+	box-sizing : initial;
+	line-height : 53px;
+	font-family : Ubuntu, sans-serif;
+	font-weight : 400;
+	-webkit-transition : all 0.4s ease;
+	-moz-transition : all 0.4s ease;
+	-ms-transition : all 0.4s ease;
+	-o-transition : all 0.4s ease;
+	transition : all 0.4s ease;
+	position : relative;
+	padding-left : 33px;
+	margin-bottom : 3px;
+	-webkit-box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.04);
+	-moz-box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.04);
+	-webkit-box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.04);
+	-moz-box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.04);
+	box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.04);
+}
+.skin5 .DWAccordions_navLink.hover
+{
+	text-decoration : none;
+	background-color : transparent;
+	-webkit-box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+	box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.skin5 .DWAccordions_navLink.hover .DWAccordions_navSpan
+{
+	color : #2E4053;
+	color : rgba(46, 64, 83, 1.00);
+	*color : #2E4053;
+}
+.skin5 .DWAccordions_navLink.hover .DWAccordions_navImg
+{
+	color : #FFFFFF;
+	color : rgba(255, 255, 255, 1.00);
+	*color : #FFFFFF;
+}
+.skin5 .DWAccordions_navLink .DWAccordions_navImg
+{
+	vertical-align : baseline;
+	margin-right : 7px;
+	font-size : 15px;
+	color : #2E4053;
+	color : rgba(46, 64, 83, 1.00);
+	*color : #2E4053;
+	-webkit-transition : all 0.4s ease;
+	-moz-transition : all 0.4s ease;
+	-ms-transition : all 0.4s ease;
+	-o-transition : all 0.4s ease;
+	transition : all 0.4s ease;
+}
+.skin5 .DWAccordions_navLink .DWAccordions_navSpan
+{
+	font-size : 15px;
+	color : #2E4053;
+	color : rgba(46, 64, 83, 1.00);
+	*color : #2E4053;
+	-webkit-transition : all 0.4s ease;
+	-moz-transition : all 0.4s ease;
+	-ms-transition : all 0.4s ease;
+	-o-transition : all 0.4s ease;
+	transition : all 0.4s ease;
+}
+.skin5 .DWAccordions_contentDivs
+{
+	width : 100%;
+	margin-left : auto;
+	margin-right : auto;
+	box-sizing : border-box;
+	display : block;
+	transition-property : height, padding-top, padding-bottom, margin-top, margin-bottom;
+	transition-duration : 0.5s;
+	transition-timing-function : ease;
+	-webkit-transition-property : height, padding-top, padding-bottom, margin-top, margin-bottom;
+	-webkit-transition-duration : 0.5s;
+	-webkit-transition-timing-function : ease;
+	-moz-transition-property : height, padding-top, padding-bottom, margin-top, margin-bottom;
+	-moz-transition-duration : 0.5s;
+	-moz-transition-timing-function : ease;
+	-o-transition-property : height, padding-top, padding-bottom, margin-top, margin-bottom;
+	-o-transition-duration : 0.5s;
+	-o-transition-timing-function : ease;
+	-ms-transition-property : height, padding-top, padding-bottom, margin-top, margin-bottom;
+	-ms-transition-duration : 0.5s;
+	-ms-transition-timing-function : ease;
+	opacity : 1;
+	font-family : Ubuntu, sans-serif;
+	font-size : 13px;
+	padding : 25px;
+	background-color : transparent;
+	overflow : auto;
+	height : auto;
+	color : #2E4053;
+	color : rgba(46, 64, 83, 0.5);
+	*color : #2E4053;
+	line-height : 215%;
+	padding-top : 40px;
+	padding-bottom : 40px;
+	text-align : left;
+}
+.skin5 .DWAccordions_contentDivs.content-fade > *
+{
+	opacity : 0;
+	-webkit-transition : opacity 0.4s ease;
+	-moz-transition : opacity 0.4s ease;
+	-ms-transition : opacity 0.4s ease;
+	-o-transition : opacity 0.4s ease;
+	transition : opacity 0.4s ease;
+}
+#DWAccordions1 .DWAccordions_contentDivs.acc_hidden
+{
+	height : 0;
+	padding-top : 0;
+	padding-bottom : 0;
+	margin : 0;
+}
+.skin5 .DWAccordions_navLink.selected .DWAccordions_navImg
+{
+	color : #FFFFFF;
+}
+.skin5 .DWAccordions_navLink.selected .DWAccordions_navSpan
+{
+	color : #FFFFFF;
+	color : rgba(255, 255, 255, 1.00);
+	*color : #FFFFFF;
+}
+.skin5 .DWAccordions_navLink.selected
+{
+	-ms-filter : "progid:DXImageTransform.Microsoft.gradient( startColorstr=#FFF26C4F, endColorstr=#FFF26C4F,GradientType=0 )";
+	background-color : rgba(242, 108, 79, 1.00);
+	-webkit-box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.12);
+	-moz-box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.12);
+	-moz-box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.12);
+	box-shadow : 0px 0px 15px 0px rgba(0, 0, 0, 0.12);
+}
+.skin5 .DWAccordions_navLink.hover .DWAccordions_iconHolder
+{
+	background-image : url('./DWAccordions1/image2.png');
+}
+.skin5 .DWAccordions_contentDivs .skin_h1
+{
+	margin-top : 0px;
+	margin-bottom : 30px;
+	font-size : 22px;
+	color : rgb(46, 64, 83);
+}
+.skin5 .DWAccordions_contentDivs .skin_h1[data-scrollreveal-complete="true"]
+{
+	opacity : 1;
+}
+.skin5 .DWAccordions_contentDivs .skin_p
+{
+	margin : 0;
+}
+body
+{
+	margin : 0;
+}
+
+/*end of skin css*/
+
+#DWAccordions1 .DWAccordions_navLink
+{
+	background-image : none;
+	-ms-filter : "progid:DXImageTransform.Microsoft.gradient( startColorstr=#FF9F2E59, endColorstr=#FF9F2E59,GradientType=0 )";
+	background-color : rgba(159, 46, 89, 1.00);
+	font-family : Roboto, sans-serif;
+}
+#DWAccordions1 .DWAccordions_navLink.hover
+{
+	background-image : none;
+	-ms-filter : "progid:DXImageTransform.Microsoft.gradient( startColorstr=#FF852245, endColorstr=#FF852245,GradientType=0 )";
+	background-color : rgba(133, 34, 69, 1.00);
+}
+#DWAccordions1 .DWAccordions_navLink.selected
+{
+	background-image : none;
+	-ms-filter : "progid:DXImageTransform.Microsoft.gradient( startColorstr=#FF852245, endColorstr=#FF852245,GradientType=0 )";
+	background-color : rgba(133, 34, 69, 1.00);
+}
+#DWAccordions1 .DWAccordions_navLink .DWAccordions_navSpan
+{
+	color : #FFFFFF;
+	color : rgba(255, 255, 255, 1.00);
+	*color : #FFFFFF;
+}
+#DWAccordions1 .DWAccordions_navLink.hover .DWAccordions_navSpan
+{
+	color : #FFFFFF;
+	color : rgba(255, 255, 255, 1.00);
+	*color : #FFFFFF;
+}
+#DWAccordions1 .DWAccordions_navLink.selected .DWAccordions_navSpan
+{
+	color : #FFFFFF;
+	color : rgba(255, 255, 255, 1.00);
+	*color : #FFFFFF;
+}
+#DWAccordions1 .DWAccordions_contentDivs
+{
+	color : #000000;
+	color : rgba(0, 0, 0, 1.00);
+	*color : #000000;
+	font-family : Roboto, sans-serif;
+	text-align : justify;
+}
+@media (max-width:767px)
+{
+	#DWAccordions1.DWAccordions_container
+	{
+		width : 100%;
+	}
+}

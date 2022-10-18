@@ -1,0 +1,95 @@
+/* lte IE 9 style*/
+.row_81 {
+	-pie-background: transparent url("../images/showcase1-bg.jpg") no-repeat scroll center bottom ;
+	position: relative;
+}
+
+.content-inner2 {
+	-pie-background: transparent none scroll ;
+	position: relative;
+}
+
+.row_78 {
+	-pie-background: transparent url("../images/showcase1-bg.jpg") no-repeat scroll center bottom ;
+	position: relative;
+}
+
+.content-inner1 {
+	-pie-background: transparent none scroll ;
+	position: relative;
+}
+
+#ContactForm1_form .form-group input.form-control {
+	border-radius: 0px;
+	position: relative;
+}
+
+#ContactForm1_form .form-group textarea.form-control {
+	border-radius: 0px;
+	position: relative;
+}
+
+#ContactForm1_form .form-group button[type="submit"] {
+	border-radius: 3px;
+	position: relative;
+}
+
+#ContactForm1_form .form-group .button.button-default {
+	border-radius: 10px;
+	position: relative;
+}
+
+.row_9 {
+	-pie-background: transparent none no-repeat fixed center top ;
+	position: relative;
+}
+
+.column_20:hover {
+	-pie-background: rgba(235, 94, 147, 0.7);
+	position: relative;
+}
+
+.column_20 {
+	position: relative;
+}
+
+.row_8 {
+	-pie-background: transparent none no-repeat fixed center top ;
+	position: relative;
+}
+
+.row_47 {
+	-pie-background: transparent url("../images/cloudpress-stock-13.jpg") no-repeat fixed center center ;
+	position: relative;
+}
+
+a.button_white3 {
+	border-radius: 100px;
+	position: relative;
+}
+
+@media only screen and (min-width : 768px) { }@media only screen and (min-width : 1024px) { img.image7 {
+	border-radius: 0px;
+	position: relative;
+}
+
+.row_9 {
+	-pie-background: linear-gradient(top, #e6e3e6 0%, #FFFFFF 100%);
+	position: relative;
+}
+
+.row_50 {
+	-pie-background: transparent none scroll ;
+	position: relative;
+}
+
+img.image3:hover {
+	-pie-background: transparent none scroll ;
+	position: relative;
+}
+
+img.image3 {
+	position: relative;
+}
+
+}
