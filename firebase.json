@@ -1,13 +1,19 @@
 {
+  "functions": {
+    "source": "functions"
+  },
   "hosting": {
-    "public": "public",
+    "public": "./public",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
-  },
-  "functions": {
-    "source": "functions"
   }
 }

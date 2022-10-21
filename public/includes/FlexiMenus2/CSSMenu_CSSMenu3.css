@@ -425,10 +425,12 @@ ul.FM2_CSSMenu3 ul li a, ul.FM2_CSSMenu3 ul li a span, ul.FM2_CSSMenu3 ul li a f
   text-decoration: none;
   text-align: left;
   cursor: pointer;
+  width:150px;
 }
 /* II.C.10. Menu item spacing */
 ul.FM2_CSSMenu3 ul li {
   padding: 0 0px 0px 0px;
+  width:170px;
 }
 /*************************************************************************************************/
 /* II.D. Menu item design (hover state) */
@@ -452,7 +454,7 @@ ul.FM2_CSSMenu3 ul li:hover >a,ul.FM2_CSSMenu3 ul li.hover >a {
   -moz-box-shadow: 0px 0px 0px #000000;
   -webkit-box-shadow: 0px 0px 0px #000000;
   box-shadow: 0px 0px 0px #000000;
-  width: 200px;
+  width: 150px;
   -moz-border-radius-bottomright: 0px;
   -webkit-border-bottom-right-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -528,7 +530,7 @@ ul.FM2_CSSMenu3 ul li a.sel {
   border-right: 0 none #000000;
   margin: 0px 0px 0px 0px;
   padding: 0px 10px 1px 10px;
-  width: 200px;
+  width: 150px;
   -moz-border-radius-bottomright: 0px;
   -webkit-border-bottom-right-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -545,7 +547,6 @@ ul.FM2_CSSMenu3 ul li a.sel {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: left center;
-  background-color: #000000;
 }
 ul.FM2_CSSMenu3 ul li a.sel, ul.FM2_CSSMenu3 ul li a.sel span, ul.FM2_CSSMenu3 ul li a.sel font {
   font: normal normal 400 13px/325% 'Open Sans',sans-serif;
@@ -626,7 +627,7 @@ ul.FM2_CSSMenu3 ul ul li a {
   border-top: 0 none #000000;
   border-bottom: 0 none #000000;
   border-right: 0 none #000000;
-  padding: 0px 15px 1px 15px;
+  padding: 0px 5px 1px 15px;
   width: 120px;
   height: 44px;
 }
@@ -636,10 +637,13 @@ ul.FM2_CSSMenu3 ul ul li a, ul.FM2_CSSMenu3 ul ul li a span, ul.FM2_CSSMenu3 ul 
   text-decoration: none;
   text-align: left;
   cursor: pointer;
+  width: 170px;
 }
 /* II.C.10. Menu item spacing */
 ul.FM2_CSSMenu3 ul ul li {
   padding: 0 0px 0px 0px;
+  background-color: #7a2444;
+  width: 190px;
 }
 /*************************************************************************************************/
 /* II.D. Menu item design (hover state) */
@@ -659,7 +663,7 @@ ul.FM2_CSSMenu3 ul ul li:hover >a,ul.FM2_CSSMenu3 ul ul li.hover >a {
   border-bottom: 0 none #000000;
   border-right: 0 none #000000;
   margin: 0px 0px 0px 0px;
-  padding: 0px 15px 1px 15px;
+  padding: 0px 5px 1px 15px;
   width: 120px;
   height: 44px;
 }
@@ -676,6 +680,7 @@ ul.FM2_CSSMenu3 ul ul li:hover >a,ul.FM2_CSSMenu3 ul ul li.hover >a, ul.FM2_CSSM
   text-decoration: none;
   text-align: left;
   cursor: pointer;
+  width: 170px;
 }
 /*************************************************************************************************/
 /* II.E. Has children icon (default state) */
@@ -687,6 +692,7 @@ ul.FM2_CSSMenu3 ul ul li a span {
 }
 ul.FM2_CSSMenu3 ul ul li a span, ul.FM2_CSSMenu3 ul ul li a font {
   padding: 0px 0px 0px 0px;
+  width: 200px;
 }
 /*************************************************************************************************/
 /* II.F. Has children icon (hover state) */
@@ -724,7 +730,7 @@ ul.FM2_CSSMenu3 ul ul li a.sel {
   border-bottom: 0 none #000000;
   border-right: 0 none #000000;
   padding: 0px 15px 1px 15px;
-  width: 120px;
+  width: 160px;
   height: 44px;
 }
 ul.FM2_CSSMenu3 ul ul li a.sel, ul.FM2_CSSMenu3 ul ul li a.sel span, ul.FM2_CSSMenu3 ul ul li a.sel font {
@@ -933,6 +939,7 @@ div#FM2_CSSMenu3_jq_menu_back div.menu-container ul li a {
 }
 div#FM2_CSSMenu3_jq_menu_back div.menu-container .branch, div#FM2_CSSMenu3_jq_menu_back div.menu-container .leaf {
   margin: 0 5px 0 5px;
+  overflow: hidden;
 }
 div#FM2_CSSMenu3_jq_menu_back div.menu-container .branch:before {
   content: "+ ";
@@ -1051,4 +1058,9 @@ div#FM2_CSSMenu3_jq_menu_back div.menu-container .branch:before {
 }
 ul.FM2_CSSMenu3 li.hover >a.sel {
   width: 160px;
+}
+
+/* SUBMENU */
+ul.FM2_CSSMenu3 > ul.submenu li,ul.FM2_CSSMenu3 > ul.submenu > a,ul.FM2_CSSMenu3 > ul.submenu > font{
+  width: 200px;
 }
